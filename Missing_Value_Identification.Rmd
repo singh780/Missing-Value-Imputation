@@ -52,7 +52,7 @@ For instance, the left block shows:
 
   - **MCAR** (*Missing Completely at Random*)
   
-    It means the missing values are completely random, there is no pattern associated to it. The **Missing** and **Observed** distrubutions will look the same. If we discard these observations, we are not inducing any bias into our analysis. However, one has to be very careful before deleting missing values. If the missing data is less than **0.5%**, then it is safe to delete it, or else one must impute it.
+  It means the missing values are completely random, there is no pattern associated to it. The **Missing** and **Observed** distrubutions will look the same. If we discard these observations, we are not inducing any bias into our analysis. However, one has to be very careful before deleting missing values. If the missing data is less than **0.5%**, then it is safe to delete it, or else one must impute it.
     
   - **MAR** (*Missing at Random*)
   
@@ -131,7 +131,7 @@ The corrplot shows extreme correlation between the variables. For example:
   - DEWP is correlated to TEMP, cbwd & IWS.
   
 
-## B. Treatment of Outliers
+## B. Treatment of Missing Value
 
 There are mutiple ways to impute the outliers, we will discuss the most frequnt methods used.
 
