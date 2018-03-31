@@ -1,2 +1,2 @@
 # Missing-Value-Imputation
-Handling missing value is usually the first critical step of data cleaning and preparation. 
+Handling missing value is usually the first critical step of data cleaning and preparation. In order to successfully manage and analysis data, it is important to identify missing values, understand hidden pattern and imputate missing values carefully. I used the city air pollution dataset from UCL to illustrate several ways to handle missing value and it is also a perfect material for data beginners to explore.
